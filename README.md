@@ -337,8 +337,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 🙋 Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
+- GitHub: Jamal-2005
+- LinkedIn: www.linkedin.com/in/syed-jamal09
 
 ---
 
