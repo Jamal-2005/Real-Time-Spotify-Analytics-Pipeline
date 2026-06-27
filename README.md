@@ -5,7 +5,9 @@ A production-grade, end-to-end data engineering pipeline that streams, stores, t
 ---
 
 ## 📐 Architecture Overview
-https://github.com/Jamal-2005/Real-Time-Spotify-Analytics-Pipeline/blob/ba2c9c7230fc66dbdb0fdcca24e1132e2d27cbfc/pipeline_architecture.png
+<p align="center">
+  <img src="assets/pipeline_architecture.png" alt="Pipeline Architecture" width="100%">
+</p>
 ```
 simulator/producer.py
        │
@@ -128,6 +130,10 @@ Sources are declared in `spotify_dbt/models/sources.yml`, pointing to the Bronze
 ### 7. 📊 Visualization — Power BI
 - Gold-layer Snowflake tables are connected to **Power BI** for interactive dashboards.
 - Insights: top songs by play count, event type distribution, device breakdown, country-level trends.
+  <p align="center">
+  <img src="assets/spotify_dashboard.png" alt="Spotify Dashboard" width="100%">
+</p>
+
 
 ---
 
