@@ -5,7 +5,7 @@ A production-grade, end-to-end data engineering pipeline that streams, stores, t
 ---
 
 ## 📐 Architecture Overview
-pipeline_architecture.png
+https://github.com/Jamal-2005/Real-Time-Spotify-Analytics-Pipeline/blob/ba2c9c7230fc66dbdb0fdcca24e1132e2d27cbfc/pipeline_architecture.png
 ```
 simulator/producer.py
        │
