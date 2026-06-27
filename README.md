@@ -6,8 +6,6 @@ A production-grade, end-to-end data engineering pipeline that streams, stores, t
 
 ## 📐 Architecture Overview
 
-![Pipeline Architecture](./assets/pipeline_architecture.png)
-
 ```
 simulator/producer.py
        │
@@ -296,21 +294,6 @@ spotify-mds-pipeline/
 ├── requirements.txt                # Python dependencies
 └── README.md
 ```
-
----
-
-## 📸 Screenshots
-
-| Component | Preview |
-|---|---|
-| **Snowflake** — Bronze table with live event data | `assets/snowflake_bronze.png` |
-| **Kafdrop** — Kafka cluster overview (2 topics, 51 partitions) | `assets/kafdrop.png` |
-| **Airflow** — DAG run history (all ✅ success) | `assets/airflow_dag_runs.png` |
-| **Airflow** — DAG graph (`extract_data` → `load_raw_to_snowflake`) | `assets/airflow_dag_graph.png` |
-| **MinIO** — Partitioned JSON objects in `spotify/bronze/` | `assets/minio_browser.png` |
-| **Docker** — All 7 containers running | `assets/docker_containers.png` |
-
-> 📁 Place your screenshots in an `assets/` folder at the repo root.
 
 ---
 
