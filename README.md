@@ -5,6 +5,7 @@ A production-grade, end-to-end data engineering pipeline that streams, stores, t
 ---
 
 ## 📐 Architecture Overview
+pipeline_architecture.png
 
 ```
 simulator/producer.py
